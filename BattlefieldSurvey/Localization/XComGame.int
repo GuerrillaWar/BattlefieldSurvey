@@ -1,0 +1,13 @@
+[BS_Survey X2AbilityTemplate]
+LocFriendlyName="Survey"
+LocHelpText="Spend the turn observing the battlefield, boosting your sight radius."
+
+[BS_BinocularsSurvey X2AbilityTemplate]
+LocFriendlyName="Long Survey"
+LocHelpText="Spend the turn observing the battlefield, boosting your sight radius."
+
+[BS_Binoculars X2WeaponTemplate]
+FriendlyName="Binoculars"
+FriendlyNamePlural="Binoculars"
+BriefSummary="Binoculars give you the ability to survey the battlefield at a far greater distance, so you can plan out your approach well."
+TacticalText="Binoculars give you the ability to survey the battlefield at a greater distance."

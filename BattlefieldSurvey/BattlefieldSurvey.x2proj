@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>f3e49587-7224-44c7-94cb-d900034e15d5</Guid>
+    <Name>Battlefield Survey</Name>
+    <Description>Spend a turn carefully observing the horizon to get the drop on the enemy.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>BattlefieldSurvey</AssemblyName>
+    <RootNamespace>BattlefieldSurvey</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Config\XComBattlefieldSurvey.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEngine.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGame.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\BattlefieldSurvey.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\XComGame.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="Src\BattlefieldSurvey\Classes\BattlefieldSurvey_X2Ability_Survey.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\BattlefieldSurvey\Classes\BattlefieldSurvey_X2Condition_HasBinoculars.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\BattlefieldSurvey\Classes\BattlefieldSurvey_X2Item_Binoculars.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\BattlefieldSurvey\Classes\X2DownloadableContentInfo_BattlefieldSurvey.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Config" />
+    <Folder Include="Localization" />
+    <Folder Include="Src" />
+    <Folder Include="Src\BattlefieldSurvey" />
+    <Folder Include="Src\BattlefieldSurvey\Classes" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
